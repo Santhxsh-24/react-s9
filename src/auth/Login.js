@@ -18,7 +18,7 @@ function Login() {
     return(
         <div>
             <h3>login page</h3>
-           <form> 
+           <form onSubmit={handleSubmit}> 
             <input type="text" name="username" onChange={(e)=>setUserName(e.target.value)}
            style={{margin:'10px',padding:'7px'}}required/>
            <label>Enter Pasword</label>

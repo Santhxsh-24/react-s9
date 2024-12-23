@@ -9,6 +9,7 @@ function News(){
 
     return (
         <div>
+            <ResponsiveAppBar/>
             <h1>News App</h1>
             <nav>
                 {categories.map((cat) => (
