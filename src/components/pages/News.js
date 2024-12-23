@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NewsList from "./NewsList";
+import ResponsiveAppBar from "../navbar/ResponsiveAppBar";
 
 function News(){
 
